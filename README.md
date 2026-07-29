@@ -76,7 +76,7 @@ production concerns.
 | --- | --- | --- | --- | --- |
 | 6 | RAG from Beginner to Production | — | — | ⚠️ **Missing** |
 | 7 | Advanced Chunking Strategies | [Read](lessons/module-02-retrieval-augmented-generation/lesson-07-advanced-chunking-strategies.md) | [Brief](assignments/lesson-07/) | ✅ Done |
-| 8 | Embedding Models Masterclass | [Read](lessons/module-02-retrieval-augmented-generation/lesson-08-embedding-models-masterclass.md) | [Brief](assignments/lesson-08/) | ✅ Done |
+| 8 | Embedding Models Masterclass | [Read](lessons/module-02-retrieval-augmented-generation/lesson-08-embedding-models-masterclass.md) | [Solution](assignments/lesson-08/solution.ipynb) | ✅ Done |
 | 9 | Rerankers & Production Retrieval Pipelines | [Read](lessons/module-02-retrieval-augmented-generation/lesson-09-rerankers-and-production-retrieval.md) | [Brief](assignments/lesson-09/) | ✅ Done |
 | 10 | Advanced Prompt Engineering | *Coming next* | — | ⬜ |
 
@@ -110,7 +110,7 @@ AI-Engineer-full-course/
 │   ├── lesson-04/            # brief
 │   ├── lesson-05/            # brief + solution.ipynb
 │   ├── lesson-07/            # brief
-│   ├── lesson-08/            # brief
+│   ├── lesson-08/            # brief + solution.ipynb
 │   └── lesson-09/            # brief
 └── projects/                 # Larger end-to-end projects (added later)
 ```
