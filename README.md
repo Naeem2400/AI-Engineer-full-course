@@ -39,31 +39,34 @@ production concerns.
 
 ## 🗺️ Curriculum Roadmap
 
-| Module | Title | Status |
-| --- | --- | --- |
-| 1 | Modern Python for AI Engineers | 🟡 In Progress |
-| 2 | How LLMs Actually Work | ⬜ Planned |
-| 3 | Prompt Engineering for Production | ⬜ Planned |
-| 4 | Embeddings & Vector Databases | ⬜ Planned |
-| 5 | Retrieval-Augmented Generation (RAG) | ⬜ Planned |
-| 6 | Building AI APIs with FastAPI | ⬜ Planned |
-| 7 | AI Agents & Tool Use | ⬜ Planned |
-| 8 | Evaluation, Testing & Observability | ⬜ Planned |
-| 9 | Guardrails, Safety & Security | ⬜ Planned |
-| 10 | Deployment, Docker & Cloud (AWS/Azure) | ⬜ Planned |
-| 11 | Cost, Latency & Scaling | ⬜ Planned |
-| 12 | Capstone Projects & Interview Preparation | ⬜ Planned |
+| Module | Title | Covers | Status |
+| --- | --- | --- | --- |
+| 1 | **Modern AI Engineering** | The role, LLM internals, tokens, embeddings, transformers, modern Python | 🟡 In Progress |
+| 2 | Prompt Engineering for Production | System prompts, structured output, few-shot, prompt injection | ⬜ Planned |
+| 3 | Embeddings & Vector Databases | Chunking, indexing, Qdrant/Weaviate/pgvector, hybrid search | ⬜ Planned |
+| 4 | Retrieval-Augmented Generation (RAG) | Retrieval pipelines, reranking, citations, advanced RAG | ⬜ Planned |
+| 5 | Building AI APIs with FastAPI | Pydantic contracts, streaming, async, background jobs | ⬜ Planned |
+| 6 | AI Agents & Tool Use | Tool calling, planning loops, multi-agent systems, MCP | ⬜ Planned |
+| 7 | Evaluation, Testing & Observability | Golden sets, LLM-as-judge, tracing, regression testing | ⬜ Planned |
+| 8 | Guardrails, Safety & Security | Injection defence, PII, grounding checks, multi-tenancy | ⬜ Planned |
+| 9 | Deployment, Docker & Cloud | Docker, AWS ECS, Azure AKS, Kubernetes, CI/CD | ⬜ Planned |
+| 10 | Cost, Latency & Scaling | Caching, batching, model routing, token budgets | ⬜ Planned |
+| 11 | Capstone Projects & Interview Preparation | End-to-end builds, system design, mock interviews | ⬜ Planned |
+
+> Module 1 runs to roughly 20 lessons. The module list is a working plan and will be
+> refined as the bootcamp progresses.
 
 ---
 
 ## ✅ Lesson Progress
 
-### Module 1 – Modern Python for AI Engineers
+### Module 1 – Modern AI Engineering
 
 | # | Lesson | Link | Assignment | Status |
 | --- | --- | --- | --- | --- |
-| 1 | What Does a Production AI Engineer Actually Do? | [Read](lessons/module-01-modern-python-for-ai-engineers/lesson-01-what-does-a-production-ai-engineer-do.md) | [Solution](assignments/lesson-01/solution.ipynb) | ✅ Done |
-| 2 | How Large Language Models Actually Work | *Coming next* | — | ⬜ |
+| 1 | What Does a Production AI Engineer Actually Do? | [Read](lessons/module-01-modern-ai-engineering/lesson-01-what-does-a-production-ai-engineer-do.md) | [Solution](assignments/lesson-01/solution.ipynb) | ✅ Done |
+| 2 | How LLMs Actually Work | [Read](lessons/module-01-modern-ai-engineering/lesson-02-how-llms-actually-work.md) | [Brief](assignments/lesson-02/) | ✅ Done |
+| 3 | The Transformer Architecture | *Coming next* | — | ⬜ |
 
 ---
 
@@ -73,10 +76,12 @@ production concerns.
 AI-Engineer-full-course/
 ├── README.md                 # You are here
 ├── lessons/                  # All lesson notes, organised by module
-│   └── module-01-modern-python-for-ai-engineers/
-│       └── lesson-01-....md
+│   └── module-01-modern-ai-engineering/
+│       ├── lesson-01-what-does-a-production-ai-engineer-do.md
+│       └── lesson-02-how-llms-actually-work.md
 ├── assignments/              # Assignment briefs + my solutions
-│   └── lesson-01/
+│   ├── lesson-01/            # brief + solution.ipynb
+│   └── lesson-02/            # brief
 └── projects/                 # Larger end-to-end projects (added later)
 ```
 
