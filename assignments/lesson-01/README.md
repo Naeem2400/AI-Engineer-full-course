@@ -17,12 +17,20 @@ Your diagram must include all nine components:
 8. Safety layer
 9. Response back to the user
 
-## How to Submit
+## ✅ My Solution
 
-Add your answer to this folder as either:
+👉 **[solution.ipynb](solution.ipynb)** — a Jupyter notebook containing:
 
-- `solution.md` — a text-based diagram (recommended, keeps everything in Git), or
-- `solution.png` — an image exported from Excalidraw / draw.io
+- Both architecture flows (ingestion and query) as text diagrams
+- A complete combined system diagram
+- A component-by-component checklist of all nine required parts
+- **A runnable simulation** of the entire pipeline with no external dependencies
+- Four safety-layer tests: prompt injection, cross-tenant access, unanswerable
+  questions, and hallucination detection
+- What is still missing before this would be production-ready
+
+All cells are pre-executed, so the outputs are visible directly on GitHub without
+running anything.
 
 ## Hints
 

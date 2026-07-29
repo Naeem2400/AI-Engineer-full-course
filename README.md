@@ -60,10 +60,10 @@ production concerns.
 
 ### Module 1 – Modern Python for AI Engineers
 
-| # | Lesson | Link | Status |
-| --- | --- | --- | --- |
-| 1 | What Does a Production AI Engineer Actually Do? | [Read](lessons/module-01-modern-python-for-ai-engineers/lesson-01-what-does-a-production-ai-engineer-do.md) | ✅ Done |
-| 2 | How Large Language Models Actually Work | *Coming next* | ⬜ |
+| # | Lesson | Link | Assignment | Status |
+| --- | --- | --- | --- | --- |
+| 1 | What Does a Production AI Engineer Actually Do? | [Read](lessons/module-01-modern-python-for-ai-engineers/lesson-01-what-does-a-production-ai-engineer-do.md) | [Solution](assignments/lesson-01/solution.ipynb) | ✅ Done |
+| 2 | How Large Language Models Actually Work | *Coming next* | — | ⬜ |
 
 ---
 
