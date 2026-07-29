@@ -42,7 +42,7 @@ production concerns.
 | Module | Title | Covers | Status |
 | --- | --- | --- | --- |
 | 1 | **Modern AI Engineering** | The role, LLM internals, tokens, embeddings, transformers, modern Python | 🟡 In Progress |
-| 2 | Prompt Engineering for Production | System prompts, structured output, few-shot, prompt injection | ⬜ Planned |
+| 2 | **Retrieval-Augmented Generation (RAG)** | Chunking, embedding models, retrieval, reranking, evaluation | 🟡 In Progress |
 | 3 | Embeddings & Vector Databases | Chunking, indexing, Qdrant/Weaviate/pgvector, hybrid search | ⬜ Planned |
 | 4 | Retrieval-Augmented Generation (RAG) | Retrieval pipelines, reranking, citations, advanced RAG | ⬜ Planned |
 | 5 | Building AI APIs with FastAPI | Pydantic contracts, streaming, async, background jobs | ⬜ Planned |
@@ -69,7 +69,19 @@ production concerns.
 | 3 | Transformers: The Technology That Changed AI Forever | [Read](lessons/module-01-modern-ai-engineering/lesson-03-transformers-architecture.md) | [Brief](assignments/lesson-03/) | ✅ Done |
 | 4 | Embeddings Deep Dive (The Foundation of RAG) | [Read](lessons/module-01-modern-ai-engineering/lesson-04-embeddings-deep-dive.md) | [Brief](assignments/lesson-04/) | ✅ Done |
 | 5 | Vector Databases & ANN Search | [Read](lessons/module-01-modern-ai-engineering/lesson-05-vector-databases-and-ann-search.md) | [Solution](assignments/lesson-05/solution.ipynb) | ✅ Done |
-| 6 | RAG from Beginner to Production | *Coming next* | — | ⬜ |
+
+### Module 2 – Retrieval-Augmented Generation (RAG)
+
+| # | Lesson | Link | Assignment | Status |
+| --- | --- | --- | --- | --- |
+| 6 | RAG from Beginner to Production | — | — | ⚠️ **Missing** |
+| 7 | Advanced Chunking Strategies | [Read](lessons/module-02-retrieval-augmented-generation/lesson-07-advanced-chunking-strategies.md) | [Brief](assignments/lesson-07/) | ✅ Done |
+| 8 | Embedding Models Masterclass | *Coming next* | — | ⬜ |
+
+> ⚠️ **Lesson 6 gap:** the course jumped from Lesson 5 to Lesson 7, so Lesson 6 — *RAG
+> from Beginner to Production* — is not yet written. Lesson 7 assumes it. It should cover
+> the end-to-end RAG pipeline, ingestion, retrieval, reranking, prompt construction,
+> evaluation, and common production failures.
 
 ---
 
@@ -79,18 +91,21 @@ production concerns.
 AI-Engineer-full-course/
 ├── README.md                 # You are here
 ├── lessons/                  # All lesson notes, organised by module
-│   └── module-01-modern-ai-engineering/
-│       ├── lesson-01-what-does-a-production-ai-engineer-do.md
-│       ├── lesson-02-how-llms-actually-work.md
-│       ├── lesson-03-transformers-architecture.md
-│       ├── lesson-04-embeddings-deep-dive.md
-│       └── lesson-05-vector-databases-and-ann-search.md
+│   ├── module-01-modern-ai-engineering/
+│   │   ├── lesson-01-what-does-a-production-ai-engineer-do.md
+│   │   ├── lesson-02-how-llms-actually-work.md
+│   │   ├── lesson-03-transformers-architecture.md
+│   │   ├── lesson-04-embeddings-deep-dive.md
+│   │   └── lesson-05-vector-databases-and-ann-search.md
+│   └── module-02-retrieval-augmented-generation/
+│       └── lesson-07-advanced-chunking-strategies.md
 ├── assignments/              # Assignment briefs + my solutions
 │   ├── lesson-01/            # brief + solution.ipynb
 │   ├── lesson-02/            # brief
 │   ├── lesson-03/            # brief
 │   ├── lesson-04/            # brief
-│   └── lesson-05/            # brief + solution.ipynb
+│   ├── lesson-05/            # brief + solution.ipynb
+│   └── lesson-07/            # brief
 └── projects/                 # Larger end-to-end projects (added later)
 ```
 
