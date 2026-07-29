@@ -76,7 +76,8 @@ production concerns.
 | --- | --- | --- | --- | --- |
 | 6 | RAG from Beginner to Production | — | — | ⚠️ **Missing** |
 | 7 | Advanced Chunking Strategies | [Read](lessons/module-02-retrieval-augmented-generation/lesson-07-advanced-chunking-strategies.md) | [Brief](assignments/lesson-07/) | ✅ Done |
-| 8 | Embedding Models Masterclass | *Coming next* | — | ⬜ |
+| 8 | Embedding Models Masterclass | [Read](lessons/module-02-retrieval-augmented-generation/lesson-08-embedding-models-masterclass.md) | [Brief](assignments/lesson-08/) | ✅ Done |
+| 9 | Rerankers Deep Dive | *Coming next* | — | ⬜ |
 
 > ⚠️ **Lesson 6 gap:** the course jumped from Lesson 5 to Lesson 7, so Lesson 6 — *RAG
 > from Beginner to Production* — is not yet written. Lesson 7 assumes it. It should cover
@@ -98,14 +99,16 @@ AI-Engineer-full-course/
 │   │   ├── lesson-04-embeddings-deep-dive.md
 │   │   └── lesson-05-vector-databases-and-ann-search.md
 │   └── module-02-retrieval-augmented-generation/
-│       └── lesson-07-advanced-chunking-strategies.md
+│       ├── lesson-07-advanced-chunking-strategies.md
+│       └── lesson-08-embedding-models-masterclass.md
 ├── assignments/              # Assignment briefs + my solutions
 │   ├── lesson-01/            # brief + solution.ipynb
 │   ├── lesson-02/            # brief
 │   ├── lesson-03/            # brief
 │   ├── lesson-04/            # brief
 │   ├── lesson-05/            # brief + solution.ipynb
-│   └── lesson-07/            # brief
+│   ├── lesson-07/            # brief
+│   └── lesson-08/            # brief
 └── projects/                 # Larger end-to-end projects (added later)
 ```
 
