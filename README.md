@@ -67,7 +67,8 @@ production concerns.
 | 1 | What Does a Production AI Engineer Actually Do? | [Read](lessons/module-01-modern-ai-engineering/lesson-01-what-does-a-production-ai-engineer-do.md) | [Solution](assignments/lesson-01/solution.ipynb) | ✅ Done |
 | 2 | How LLMs Actually Work | [Read](lessons/module-01-modern-ai-engineering/lesson-02-how-llms-actually-work.md) | [Brief](assignments/lesson-02/) | ✅ Done |
 | 3 | Transformers: The Technology That Changed AI Forever | [Read](lessons/module-01-modern-ai-engineering/lesson-03-transformers-architecture.md) | [Brief](assignments/lesson-03/) | ✅ Done |
-| 4 | Embeddings Deep Dive | *Coming next* | — | ⬜ |
+| 4 | Embeddings Deep Dive (The Foundation of RAG) | [Read](lessons/module-01-modern-ai-engineering/lesson-04-embeddings-deep-dive.md) | [Brief](assignments/lesson-04/) | ✅ Done |
+| 5 | Vector Databases & ANN Search | *Coming next* | — | ⬜ |
 
 ---
 
@@ -80,11 +81,13 @@ AI-Engineer-full-course/
 │   └── module-01-modern-ai-engineering/
 │       ├── lesson-01-what-does-a-production-ai-engineer-do.md
 │       ├── lesson-02-how-llms-actually-work.md
-│       └── lesson-03-transformers-architecture.md
+│       ├── lesson-03-transformers-architecture.md
+│       └── lesson-04-embeddings-deep-dive.md
 ├── assignments/              # Assignment briefs + my solutions
 │   ├── lesson-01/            # brief + solution.ipynb
 │   ├── lesson-02/            # brief
-│   └── lesson-03/            # brief
+│   ├── lesson-03/            # brief
+│   └── lesson-04/            # brief
 └── projects/                 # Larger end-to-end projects (added later)
 ```
 
